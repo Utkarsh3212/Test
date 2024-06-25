@@ -8,6 +8,7 @@ const cors = require('cors');
 const mongoose = require('mongoose')
 const path = require('path')
 const flash = require('connect-flash');
+const MongoStore=require('connect-mongo');
 app.use(express.static(path.join(__dirname, 'public')));
 
 
